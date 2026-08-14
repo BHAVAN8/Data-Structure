@@ -101,3 +101,59 @@ void displayStack(struct Stack *stack) {
     }
     printf("\n");
 }
+
+OUTPUT:
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice1
+enter element to push10
+element pushed 10
+
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice1
+enter element to push20
+element pushed 20
+
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice2
+poped element:20
+
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice2
+poped element:10
+
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice3
+stack is empty
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice3
+stack is empty
+ stack option menu 
+1.push
+2.pop
+3.display
+4.display
+enter your choice4
