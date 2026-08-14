@@ -238,6 +238,73 @@ void displayList(struct Node *head)
         printf("%d -> ", head->data);
         head = head->next;
     }
-
     printf("NULL\n");
 }
+    OUTPUT:
+    ===== Singly Linked List =====
+1. Insert at End
+2. Insert at Position
+3. Search Element
+4. Delete Element
+5. Display List
+6. Exit
+Enter your choice: 1
+Enter value: 10
+Node inserted successfully.
+
+===== Singly Linked List =====
+1. Insert at End
+2. Insert at Position
+3. Search Element
+4. Delete Element
+5. Display List
+6. Exit
+Enter your choice: 2
+Enter value: 20
+Enter position: 1
+Node inserted successfully.
+
+===== Singly Linked List =====
+1. Insert at End
+2. Insert at Position
+3. Search Element
+4. Delete Element
+5. Display List
+6. Exit
+Enter your choice: 3
+Enter element to search: 20
+Element found at position 1
+
+===== Singly Linked List =====
+1. Insert at End
+2. Insert at Position
+3. Search Element
+4. Delete Element
+5. Display List
+6. Exit
+Enter your choice: 4
+Enter element to delete: 1
+Element not found.
+
+===== Singly Linked List =====
+1. Insert at End
+2. Insert at Position
+3. Search Element
+4. Delete Element
+5. Display List
+6. Exit
+Enter your choice: 5
+Linked List: 20 -> 10 -> 20 -> NULL
+
+===== Singly Linked List =====
+1. Insert at End
+2. Insert at Position
+3. Search Element
+4. Delete Element
+5. Display List
+6. Exit
+Enter your choice: 6
+Exiting program...
+
+
+
